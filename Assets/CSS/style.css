@@ -1,6 +1,6 @@
 *{ 
    margin: 0;
-   padding: 0;
+   padding: 10px;
    box-sizing: border-box; 
 }
 
@@ -9,11 +9,6 @@
     margin: 0 auto;
     border: 2px solid #ccc;
 
-}
-
-.top-photos{
-    display: flex; 
-    flex-direction: column;
 }
 
 .photo {
@@ -31,7 +26,7 @@
 }
 
 .photo h2 {
-    font-size: 14px;
+    font-size: 20px;
 
 }
 
@@ -56,5 +51,6 @@ body {
 
 .photo-container {
     background-color: #ffff;
-    border: 2px solid #0074D9;
+    border: 3px solid black;
+    border-radius: 1%;
 }
