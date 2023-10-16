@@ -1,4 +1,4 @@
-# <Portfolio Page>
+# Peter's Portfolio Page
 
 ## Description
 
@@ -6,32 +6,24 @@
 - A professional portfolio is essential to competing in the coding world
 - The portfolio links to information about me, my past projects, and my contact information
 
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
 
 ## Installation
 
-A simple code editor and a web browser are useful for viewing the code and running the HTML and CSS elements.
+A  code editor and a web browser are useful for viewing the code and running the HTML and CSS elements. An e-mail client is useful for using the links to e-mail the developer, but is not required. 
 
 ## Usage
 
-The site can be navigated using the nav bar at the top of the page.
+The site can be browsed using the navigation bar at the top of the page, which links to different portions of the page. 
 
 ## Credits
 
-The only collaborator was Bootcamp Tutor Anastasia Warren.
+The only collaborator was Bootcamp Tutor Anastasia Warren and CodeAcademy tutorials.
 
 ## License
 
 MIT License
 
-Copyright (c) [year] [fullname]
+Copyright (c) [2023] [Peter Martinez]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
