@@ -7,55 +7,67 @@
     <link rel="stylesheet" href="Assets/CSS/style.css"/>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <header>
-        <h1 class = "text-xl font-bold">PLAY PLAY PLAY</h1>
-        <h3>Peter's Portfolio Site</h3>
+<body> 
+    <header class = "flex flex-col justify-center items-center mb-10">
+        <nav < span class="flex row justify-items-start mb-4 gap-4">
+            <a class ="border-2" href="#about-me">About Me</a>
+            <a class="border-2" href="#projects">Projects</a>
+            <a class="border-2" href="#contact-me">Contact Me</a>
+            </span> 
+        </nav>
+        <h2 class = "text-xl font-bold shadow-md shadow-white max-w-md mb-10">PLAY PLAY PLAY</h2>
+        <h1 class="font-style: italic text-xl">Peter's Portfolio Site</h1>
+        <h2 class="font-bold">Because PLAY is how we LEARN</h2>
     </header>
-<div class="photo-container">
-        <div class="photo">
+    <section>
+        <h1 id="about-me" class="font-bold">About Me</h1>
+    </section>
+    <section id="projects" class ="border-2 ml-20 mr-20">
+        Projects
+<div class="photo-container grid grid-cols-2 gap-4">
+        <div class="photo border-2">
             <a href="https://reasonablep.github.io/horiseon-dev-homework-1/">
         <img src="Assets/HoriseonSC.png" alt="Project 1">
         </a>
         <h2>Project 1 - Horiseon</h2>
         </div>
-        <div class = "photo">
+        <div class = "photo border-2">
             <a href="https://reasonablep.github.io/password-generator-challenge-1/">
     <img src="Assets/PWGenerator.png" alt="Project 2">
     </a>
         <h2>Project 2 - Random Password Generator</h2>
         </div>
-    <div class = "photo">
+    <div class = "photo border-2">
         <a href ='https://reasonablep.github.io/JavaScript_code_quiz_p4/'>
 <img src="Assets/QuizGameSC.png" alt="Project 3">
         </a>
     <h2>Project 3 - JavaScript Quiz Game</h2>
     </div>
 
-    <div class = "photo">
+    <div class = "photo border-2">
         <a href = 'https://reasonablep.github.io/p5-JQUERY-day-scheduler/'>
         <img src="Assets/PlannerSC.png" alt="Project 4">
         </a>
         <h2>Project 4 - Daily Planner Application</h2>
         </div>
 
-        <div class = "photo">
+        <div class = "photo border-2">
             <a href = 'https://reasonablep.github.io/weather-dash-challenge/'>
             <img src="Assets/WeatherApp.png" alt="Project 5">
             </a>
             <h2>Project 5 - Weather Retrieval App</h2>
             </div>
 
-        <div class = "photo">
+        <div class = "photo border-2">
             <a href ='https://tonymagr.github.io/project1-trailer-phone-imyou/'>
         <img src="Assets/TrailerFone Project.png" alt="Group Project 1">
             </a>
         <h2>Group Project 1 - TrailerFone API Project</h2>
         </div>
-
 </div>
+</section>
 
-<footer>
+<footer id="contact-me">
     2023, Berkeley Coding Bootcamp<br>
     <span class = "text-xl font-bold">
     Peter Martinez</span>
