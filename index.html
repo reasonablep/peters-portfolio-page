@@ -1,83 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PJM Portfolio Projects</title>
-    <link rel="stylesheet" href="Assets/CSS/style.css"/>
+    <link rel="stylesheet" href="Assets/CSS/style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body> 
-    <header class = "flex flex-col justify-center items-center mb-10">
+
+<body>
+    <header class="flex flex-col justify-center items-center mb-10 font-mono">
         <nav < span class="flex row justify-items-start mb-4 gap-4">
-            <a class ="border-2" href="#about-me">About Me</a>
+            <a class="border-2" href="#about-me">About Me</a>
             <a class="border-2" href="#projects">Projects</a>
             <a class="border-2" href="#contact-me">Contact Me</a>
-            </span> 
+            </span>
         </nav>
-        <h2 class = "text-xl font-bold shadow-md shadow-white max-w-md mb-10">PLAY PLAY PLAY</h2>
-        <h1 class="font-style: italic text-xl">Peter's Portfolio Site</h1>
-        <h2 class="font-bold">Because PLAY is how we LEARN</h2>
+        <h2 class="text-xl font-bold shadow-md shadow-white max-w-md mb-10 tracking-widest">PLAY PLAY PLAY</h2>
+        <h2 class="font-bold font-style: italic">Because<span class="tracking-widest text-white">PLAY</span> is the
+            best way to <span class="tracking-widest text-white">LEARN</span></h2>
+        <h1 class="font-bold text-4xl">Peter's<span class="underline decoration-white">Portfolio</span>Page</h1>
     </header>
     <section>
-        <h1 id="about-me" class="font-bold">About Me</h1>
+        <h1 id="about-me" class="font-bold text-xl border">About Me</h1>
+        <div>
+            <h2 class="font-bold text-xl">Peter Martinez</h2>
+            <ul>
+                <li>BSc Biochemistry & Molecular Biology, University of California, Santa Cruz (2023)</li>
+                <li>Certificate UC Berkeley Extension / edX Full Stack Web Development (2023)</li>
+                <li>15 years+ work experience</li>
+            </ul>
+                <p>I am a recent graduate from the UC Santa Cruz BMB major, and I am currently pursuing a certificate in full-stack web development in order to pursue a career in bioinformatics. I have over 15 years of work experience in several different fields including telecommunication, retail, fitness, and event planning.</p>
+        </div>
+        <h1 id="projects" class="border font-bold text-xl mb-8">Portfolio Projects</h1>
     </section>
-    <section id="projects" class ="border-2 ml-20 mr-20">
-        Projects
-<div class="photo-container grid grid-cols-2 gap-4">
-        <div class="photo border-2">
-            <a href="https://reasonablep.github.io/horiseon-dev-homework-1/">
-        <img src="Assets/HoriseonSC.png" alt="Project 1">
-        </a>
-        <h2>Project 1 - Horiseon</h2>
-        </div>
-        <div class = "photo border-2">
-            <a href="https://reasonablep.github.io/password-generator-challenge-1/">
-    <img src="Assets/PWGenerator.png" alt="Project 2">
-    </a>
-        <h2>Project 2 - Random Password Generator</h2>
-        </div>
-    <div class = "photo border-2">
-        <a href ='https://reasonablep.github.io/JavaScript_code_quiz_p4/'>
-<img src="Assets/QuizGameSC.png" alt="Project 3">
-        </a>
-    <h2>Project 3 - JavaScript Quiz Game</h2>
-    </div>
+    <section class="border-2 ml-20 mr-20">
 
-    <div class = "photo border-2">
-        <a href = 'https://reasonablep.github.io/p5-JQUERY-day-scheduler/'>
-        <img src="Assets/PlannerSC.png" alt="Project 4">
-        </a>
-        <h2>Project 4 - Daily Planner Application</h2>
-        </div>
-
-        <div class = "photo border-2">
-            <a href = 'https://reasonablep.github.io/weather-dash-challenge/'>
-            <img src="Assets/WeatherApp.png" alt="Project 5">
-            </a>
-            <h2>Project 5 - Weather Retrieval App</h2>
+        <div class="photo-container grid grid-cols-2 gap-4">
+            <div class="photo border-2">
+                <a href="https://reasonablep.github.io/horiseon-dev-homework-1/">
+                    <img src="Assets/HoriseonSC.png" alt="Project 1">
+                </a>
+                <h2>Project 1 - Horiseon</h2>
+            </div>
+            <div class="photo border-2">
+                <a href="https://reasonablep.github.io/password-generator-challenge-1/">
+                    <img src="Assets/PWGenerator.png" alt="Project 2">
+                </a>
+                <h2>Project 2 - Random Password Generator</h2>
+            </div>
+            <div class="photo border-2">
+                <a href='https://reasonablep.github.io/JavaScript_code_quiz_p4/'>
+                    <img src="Assets/QuizGameSC.png" alt="Project 3">
+                </a>
+                <h2>Project 3 - JavaScript Quiz Game</h2>
             </div>
 
-        <div class = "photo border-2">
-            <a href ='https://tonymagr.github.io/project1-trailer-phone-imyou/'>
-        <img src="Assets/TrailerFone Project.png" alt="Group Project 1">
-            </a>
-        <h2>Group Project 1 - TrailerFone API Project</h2>
-        </div>
-</div>
-</section>
+            <div class="photo border-2">
+                <a href='https://reasonablep.github.io/p5-JQUERY-day-scheduler/'>
+                    <img src="Assets/PlannerSC.png" alt="Project 4">
+                </a>
+                <h2>Project 4 - Daily Planner Application</h2>
+            </div>
 
-<footer id="contact-me">
-    2023, Berkeley Coding Bootcamp<br>
-    <span class = "text-xl font-bold">
-    Peter Martinez</span>
-    <section class="contact-me"><span class="font-bold">Contact Me</span>
-        <ul>
-        <li><a href = 'mailto: pmrtnz@me.com' id=contact-me>Mail</a></li>
-        <li><a href = 'https://www.linkedin.com/in/peter-j-martinez-49b81771' id=contact-me>LinkedIn</a></li>
-        <li><a href id=resume>External Resume</a></li>
-       </ul>
-       </section>
-</footer>
+            <div class="photo border-2">
+                <a href='https://reasonablep.github.io/weather-dash-challenge/'>
+                    <img src="Assets/WeatherApp.png" alt="Project 5">
+                </a>
+                <h2>Project 5 - Weather Retrieval App</h2>
+            </div>
+
+            <div class="photo border-2">
+                <a href='https://tonymagr.github.io/project1-trailer-phone-imyou/'>
+                    <img src="Assets/TrailerFone Project.png" alt="Group Project 1">
+                </a>
+                <h2>Group Project 1 - TrailerFone API Project</h2>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact-me">
+        2023, UC Berkeley Extension / edX Full Stack Development Bootcamp<br>
+        <span class="text-xl font-bold">
+            Peter Martinez</span>
+        <section class="contact-me"><span class="font-bold border">Contact Me</span>
+            <ul>
+                <li><a href='mailto: pmrtnz@me.com' id=contact-me>Mail</a></li>
+                <li><a href='https://www.linkedin.com/in/peter-j-martinez-49b81771' id=contact-me>LinkedIn</a></li>
+                <li><a href id=resume>External Resume</a></li>
+            </ul>
+        </section>
+    </footer>
 </body>
+
 </html>
