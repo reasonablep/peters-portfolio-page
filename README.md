@@ -37,7 +37,13 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Contributing
-Reach out to the developer at the e-mail address below.
+Reach out to the developer at the e-mail address below for contributions.
+
+- During the course our instructor recommended learning Tailwind CSS, which I picked up in my spare time using this video series --> 
+
+https://www.youtube.com/watch?v=bxmDnn7lrnk
+
+- All other code my was written by me using materials from class
 
 ## Questions
 For questions about this project, please reach out to me on GitHub, https://github/reasonablep or via e-mail at, pmrtnz@me.com. Thanks for reading. 
