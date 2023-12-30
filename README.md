@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
 ## Description
-This project is a portfolio highlighting my qualifications and my work as a developer during 2023 UC Berkeley Extension / edX Full Stack Web Development bootcamp. 
+This project is a portfolio highlighting my qualifications and my work as a developer during 2023 UC Berkeley Extension / edX Full Stack Web Development bootcamp. It highlights the things I learned during my experience in the bootcamp, especially the differing technologies that were taught. 
 
 ## Table of Contents
 
@@ -16,9 +16,7 @@ This project is a portfolio highlighting my qualifications and my work as a deve
 
   
 ## Installation
-The site simply requires a browser to access. The link to the GitHub page is provided below.
-
-GitHub Pages URL to Portfolio:
+The site simply requires a browser to access. The link to the GitHub page is provided below. GitHub Pages URL to Portfolio:
 
 https://reasonablep.github.io/peters-portfolio-page/#contact-me
 
@@ -44,6 +42,8 @@ Reach out to the developer at the e-mail address below for contributions.
 https://www.youtube.com/watch?v=bxmDnn7lrnk
 
 - All other code my was written by me using materials from class
+
+- Navigation bar backdrop was AI generated using ChatGPT
 
 ## Questions
 For questions about this project, please reach out to me on GitHub, https://github/reasonablep or via e-mail at, pmrtnz@me.com. Thanks for reading. 

@@ -1,3 +1,5 @@
+/* Additional CSS styles */
+
 *{ 
    margin: 0;
    padding: 10px;
@@ -78,6 +80,8 @@ footer{
     height:auto;
 }
 
+/*CSS media queries for 992 pixel screen size*/
+
 @media screen and (max-width: 992px) {
     body {
         font-size: 0.8rem;
@@ -91,7 +95,6 @@ footer{
     }
 
     .photo-container {
-        /* grid-template-columns: 1fr; */
         width: 100%;
         border: 0;
         margin: 0;
